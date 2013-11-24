@@ -1,0 +1,17 @@
+{
+  "name": "ctrlr",
+  "version": "0.0.0",
+  "description": "Simple controller dispatcher",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Arnor Heidar Sigurdsson <arnorhs@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "directory": "~0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0"
+  }
+}
