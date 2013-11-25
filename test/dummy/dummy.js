@@ -1,6 +1,6 @@
 module.exports = {
-    dummy1: function() {
+    do: function() {
     },
-    dummy2: function() {
+    dont: function() {
     }
 };

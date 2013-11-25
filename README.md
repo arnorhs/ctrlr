@@ -17,8 +17,8 @@ Example usage:
 ```javascript
 var controllers = ctrlr(__dirname + '/controllers/');
 
-controllers.cars.getAction('drive')('Filmore and Geary', 'Grant Ave and O\'farrel');
-controllers.cars.getAction('shiftGears')(3);
+controllers("cars#drive")('Filmore and Geary', 'Grant Ave and O\'farrel');
+controllers('cars#shiftGears')(3);
 ```
 
 License: MIT

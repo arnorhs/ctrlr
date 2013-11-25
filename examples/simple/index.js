@@ -1,6 +1,5 @@
-var ctrlr = require('../../');
+var ctrlr = require('../../'),
+    controllers = ctrlr(__dirname + '/controllers/');
 
-var controllers = ctrlr(__dirname + '/controllers/');
-
-controllers.cars.getAction('drive')('Filmore and Geary', 'Grant Ave and O\'farrel');
-controllers.cars.getAction('shiftGears')(3);
+controllers("cars#drive")('Filmore and Geary', 'Grant Ave and O\'farrel');
+controllers('cars#shiftGears')(3);
