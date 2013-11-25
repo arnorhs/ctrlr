@@ -1,6 +1,6 @@
 {
   "name": "ctrlr",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Simple controller dispatcher",
   "main": "index.js",
   "scripts": {
