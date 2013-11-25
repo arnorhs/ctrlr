@@ -1,7 +1,7 @@
 var directory = require('directory'),
     Controller = require('./lib/controller');
 
-var load = function(dir) {
+module.exports = function(dir) {
     var controllers = {};
     directory(dir, function(module, name) {
         controllers[name] = new Controller(name, module);
@@ -27,5 +27,3 @@ var load = function(dir) {
     };
     return controllers;
 };
-
-module.exports = load;
